@@ -11,7 +11,7 @@ now = datetime.datetime.now()
 
 doc.invoice_info = InvoiceInfo(1729, now, datetime.timedelta(days=7))
 doc.service_provider_info = ServiceProviderInfo(
-   name='Navaneeth\'s Hub',
+   name='SmartHaven',
     street='Sansad Marg, Gokul Nagar, Janpath, Connaught Place, 110001.',
     city='New Delhi'
 )
