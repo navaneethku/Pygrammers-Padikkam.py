@@ -7,6 +7,6 @@ qr = qrcode.QRCode(
 )
 qr.add_data(qrCodeData)
 qr.make(fit=True)
-img = qr.make_image(fill_color="black", back_color="white")
+img = qr.make_image(fill_color="white", back_color="transparent")
 img.save("qrcode.png")
 print("QRCode saved as qrcode.png")
